@@ -42,7 +42,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="• گروپی بۆت •", url=config.SUPPORT_CHAT),
         ]
      ]
-)            
+ )
 
 
 pm_buttons = [

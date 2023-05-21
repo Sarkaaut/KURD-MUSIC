@@ -120,7 +120,7 @@ async def play(_, message: Message):
             await app2.join_chat(invitelink)
             await asyncio.sleep(2)
             await fallen.edit_text(
-                f"{ASS_NAME} بەشداری کردووە ✅,\n\n⎊ دەستپێکردن"
+                f"{ASS_NAME} بەشداری کردووە ✅,\n\n دەستپێکردن"
             )
         except UserAlreadyParticipant:
             pass
@@ -177,7 +177,7 @@ async def play(_, message: Message):
         file_path = audio_dl(url)
     else:
         if len(message.command) < 2:
-            return await fallen.edit_text("⎊ ناوی گۆرانییەکە بنووسە 🎧")
+            return await fallen.edit_text("ناوی گۆرانییەکە بنووسە 🎧")
         await fallen.edit_text("چاوە روان بە 🔄")
         query = message.text.split(None, 1)[1]
         try:
@@ -234,7 +234,7 @@ async def play(_, message: Message):
 
         except NoActiveGroupCall:
             return await fallen.edit_text(
-                "**🔊 سەرەتا پەیوەندی دەنگی بکەرەوە **\n**⚠️ تکایە دڵنیابە لە کردنەوەی پەیوەندی دەنگی گروپ**"
+                "**سەرەتا پەیوەندی دەنگی بکەرەوە تکایە دڵنیابە لە کردنەوەی پەیوەندی دەنگی گروپ **"
             )
         except TelegramServerError:
             return await fallen.edit_text(

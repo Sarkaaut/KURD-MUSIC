@@ -90,7 +90,7 @@ async def play(_, message: Message):
                 ]
             )
             return await fallen.edit_text(
-                text=f" {BOT_NAME} ئەکاونتی یارمەتیدەر باند کراوە لە {message.chat.title}\n\n🆔 ئایدی : `{ASS_ID}`\n🏷️ ناوەکە : {ASS_MENTION}\n🪪 ناسنامە : @{ASS_USERNAME}\n\n⚙️ باندی ئەکاونتی یاریدەدەرەکە لابە ن هه تا بۆتە کە بتوانی چالاک ببێت",
+                text=f"ئەکاونتی یارمەتیدەر باند کراوە لە {message.chat.title}\n\n🔖 ئایدی : `{ASS_ID}`\n🏷️ ناوەکە : {ASS_MENTION}\n🪪 ناسنامە : @{ASS_USERNAME}\n\n⚙️ باندی ئەکاونتی یاریدەدەرەکە لابە ن هه تا بۆتە کە بتوانی چالاک ببێت",
                 reply_markup=unban_butt,
             )
     except UserNotParticipant:
@@ -143,7 +143,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 600) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"⚠️ پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە {DURATION_LIMIT} گۆرانییەکی تر لێبدە {BOT_NAME}"
+                f"پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️"
             )
 
         file_name = get_file_name(audio)
@@ -168,11 +168,11 @@ async def play(_, message: Message):
                 secmul *= 600
 
         except Exception as e:
-            return await fallen.edit_text(f"❕ هه ڵە یە هه یە\n\n**هه ڵە :** `{e}`")
+            return await fallen.edit_text(f"هه ڵە یە هه یە❕\n\n**هه ڵە :** `{e}`")
 
         if (dur / 600) > DURATION_LIMIT:
             return await fallen.edit_text(
-                f"⚠️ پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە {DURATION_LIMIT} گۆرانییەکی تر لێبدە {BOT_NAME}"
+                f"پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️"
             )
         file_path = audio_dl(url)
     else:
@@ -194,11 +194,11 @@ async def play(_, message: Message):
 
         except Exception as e:
             LOGGER.error(str(e))
-            return await fallen.edit("♻️ پرۆسێسکردن شکستی هێنا، دووبارە هەوڵبدەرەوە")
+            return await fallen.edit("پرۆسێسکردن شکستی هێنا، دووبارە هەوڵبدەرەوە ♻️")
 
         if (dur / 600) > DURATION_LIMIT:
             return await fallen.edit(
-                f"⚠️ پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە {DURATION_LIMIT} گۆرانییەکی تر لێبدە {BOT_NAME}"
+                f"پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️"
             )
         file_path = audio_dl(url)
 
@@ -234,11 +234,11 @@ async def play(_, message: Message):
 
         except NoActiveGroupCall:
             return await fallen.edit_text(
-                "**سەرەتا پەیوەندی دەنگی بکەرەوە تکایە دڵنیابە لە کردنەوەی پەیوەندی دەنگی گروپ **"
+                "**⚠️ سەرەتا پەیوەندی دەنگی بکەرەوە تکایە دڵنیابە لە کردنەوەی پەیوەندی دەنگی گروپ **"
             )
         except TelegramServerError:
             return await fallen.edit_text(
-                "کێشەیەک هەبوو هەوڵبدە تیڵە کە دابخەیت و دووبارە بکەیتەوە ♻️"
+                "♻️ کێشەیەک هەبوو هەوڵبدە تیڵە کە دابخەیت و دووبارە بکەیتەوە"
             )
         except UnMuteNeeded:
             return await fallen.edit_text(

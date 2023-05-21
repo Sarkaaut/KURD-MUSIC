@@ -190,7 +190,7 @@ async def unban_ass(_, CallbackQuery):
                 show_alert=True,
             )
         return await CallbackQuery.edit_message_text(
-            f"🖇️ {ASS_NAME} باندە کە لابار بە سەرکەوتوویی لەلایەن {CallbackQuery.from_user.mention}.\n ئێستا بۆتەکە کاردەکات ✅"
+            f"باندە کە لابرا بە سەرکەوتوویی لەلایەن {CallbackQuery.from_user.mention}.\n ئێستا بۆتەکە کاردەکات ✅"
         )
     else:
         return await CallbackQuery.answer(

@@ -143,7 +143,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 600) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️"
+                f"**پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️**"
             )
 
         file_name = get_file_name(audio)
@@ -172,7 +172,7 @@ async def play(_, message: Message):
 
         if (dur / 600) > DURATION_LIMIT:
             return await fallen.edit_text(
-                f"پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️"
+                f"**پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️**"
             )
         file_path = audio_dl(url)
     else:
@@ -198,7 +198,7 @@ async def play(_, message: Message):
 
         if (dur / 600) > DURATION_LIMIT:
             return await fallen.edit(
-                f"پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️"
+                f"**پەخشکردنەکە شکستی هێنا چونکە گۆرانییەکە زۆر درێژە گۆرانییەکی تر لێبدە ⚠️**"
             )
         file_path = audio_dl(url)
 
@@ -234,7 +234,7 @@ async def play(_, message: Message):
 
         except NoActiveGroupCall:
             return await fallen.edit_text(
-                "**⚠️ سەرەتا پەیوەندی دەنگی بکەرەوە تکایە دڵنیابە لە کردنەوەی پەیوەندی دەنگی گروپ **"
+                "** سەرەتا پەیوەندی دەنگی بکەرەوە تکایە دڵنیابە لە کردنەوەی پەیوەندی دەنگی گروپ ⚠️**"
             )
         except TelegramServerError:
             return await fallen.edit_text(

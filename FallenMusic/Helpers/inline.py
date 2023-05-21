@@ -37,13 +37,14 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="⏸", callback_data="pause_cb"),
             InlineKeyboardButton(text="⏭️", callback_data="skip_cb"),
             InlineKeyboardButton(text="⏹", callback_data="end_cb"),       
-        )
-    ],
-    [
-        InlineKeyboardButton(text="• کە ناڵی بۆت •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• گروپی بۆت •", url=config.SUPPORT_CHAT),
-    ],
-    [
+            
+            InlineKeyboardButton(text="• کە ناڵی بۆت •", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="• گروپی بۆت •", url=config.SUPPORT_CHAT),
+        ]
+     ]
+)            
+
+
 pm_buttons = [
     [
         InlineKeyboardButton(

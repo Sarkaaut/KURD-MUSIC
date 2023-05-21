@@ -182,7 +182,7 @@ async def gen_thumb(videoid, user_id):
         text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 660),
-            f"Duration: {duration} Mins",
+            f"Mawa: {duration} Xulak",
             fill="white",
             font=arial,
         )
@@ -296,7 +296,7 @@ async def gen_qthumb(videoid, user_id):
         try:
             draw.text(
                 (455, 25),
-                "ADDED TO QUEUE",
+                "BOT MUSIC KURD",
                 fill="white",
                 stroke_width=5,
                 stroke_fill="black",
@@ -327,7 +327,7 @@ async def gen_qthumb(videoid, user_id):
         text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 660),
-            f"Duration: {duration} Mins",
+            f"Mawa: {duration} Xulak",
             fill="white",
             font=arial,
         )

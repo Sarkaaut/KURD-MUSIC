@@ -41,7 +41,7 @@ def admin_check(func: Callable) -> Callable:
         check = await app.get_chat_member(message.chat.id, message.from_user.id)
         if check.status not in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await message.reply_text(
-                "⎊ تۆ ئەدمین نیت تکایە لە سنوورەکانت بمێنەرەوە"
+                "تۆ ئەدمین نیت تکایە لە سنوورەکانت بمێنەرەوە ⚠️"
             )
 
         admin = (
@@ -51,7 +51,7 @@ def admin_check(func: Callable) -> Callable:
             return await func(_, message)
         else:
             return await message.reply_text(
-                "⎊ تۆ مۆڵەتت نییە بۆ بەڕێوەبردنی گفتوگۆکانی پەیوەندییەکان "
+                "تۆ مۆڵەتت نییە بۆ بەڕێوەبردنی گفتوگۆکانی پەیوەندییەکان 🔰"
             )
 
     return non_admin
@@ -61,7 +61,7 @@ def admin_check_cb(func: Callable) -> Callable:
     async def cb_non_admin(_, query: CallbackQuery):
         if not await is_active_chat(query.message.chat.id):
             return await query.answer(
-                "بۆتە کە لە پە یوە ندیکە دا نییە", show_alert=True
+                "بۆتە کە لە پە یوە ندیکە دا نییە ❗️", show_alert=True
             )
 
         if query.from_user.id in SUDOERS:
@@ -73,7 +73,7 @@ def admin_check_cb(func: Callable) -> Callable:
             return
         if check.status not in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await query.answer(
-                "⎊ تۆ ئەدمین نیت ",
+                "تۆ ئەدمین نیت ❗️",
                 show_alert=True,
             )
 
@@ -84,7 +84,7 @@ def admin_check_cb(func: Callable) -> Callable:
             return await func(_, query)
         else:
             return await query.answer(
-                "⎊ تۆ مۆڵەتت نییە بۆ بەڕێوەبردنی گفتوگۆی پەیوەندییەکان",
+                "تۆ مۆڵەتت نییە بۆ بەڕێوەبردنی گفتوگۆی پەیوەندییەکان 🔰",
                 show_alert=True,
             )
 

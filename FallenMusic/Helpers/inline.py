@@ -42,7 +42,6 @@ buttons = InlineKeyboardMarkup(
      ]
  )
 
-buttons = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="• کە ناڵی بۆت •", url=config.SUPPORT_CHANNEL),

@@ -39,7 +39,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="⏹", callback_data="end_cb"),
         ],
     ]
- )
+    
 
 gp_buttons = [
     [
@@ -51,11 +51,9 @@ gp_buttons = [
     [
         InlineKeyboardButton(text="• کە ناڵی بۆت •", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="• گروپی بۆت •", url=config.SUPPORT_CHAT),
-
-       ]
-    ]
- )
-
+    ],
+]
+    
 pm_buttons = [
     [
         InlineKeyboardButton(

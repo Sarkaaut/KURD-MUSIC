@@ -42,7 +42,7 @@ buttons = InlineKeyboardMarkup(
      ]
  )
 
-    [
+     [
         [
             InlineKeyboardButton(text="• کە ناڵی بۆت •", url=config.SUPPORT_CHANNEL),
             InlineKeyboardButton(text="• گروپی بۆت •", url=config.SUPPORT_CHAT),

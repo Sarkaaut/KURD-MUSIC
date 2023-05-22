@@ -37,18 +37,23 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="⏸", callback_data="pause_cb"),
             InlineKeyboardButton(text="⏭️", callback_data="skip_cb"),
             InlineKeyboardButton(text="⏹", callback_data="end_cb"),
-            
-        ]
-     ]
+        ],
+    ]
  )
 
-     [
-        [
-            InlineKeyboardButton(text="• کە ناڵی بۆت •", url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text="• گروپی بۆت •", url=config.SUPPORT_CHAT),
-            
-        ]
-     ]
+gp_buttons = [
+    [
+        InlineKeyboardButton(
+            text="‹ بۆتەکە زیاد بکە بۆ گروپەکەت ›",
+            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+        )
+    ],
+    [
+        InlineKeyboardButton(text="• کە ناڵی بۆت •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• گروپی بۆت •", url=config.SUPPORT_CHAT),
+
+       ]
+    ]
  )
 
 pm_buttons = [

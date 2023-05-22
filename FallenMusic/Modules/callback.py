@@ -137,7 +137,7 @@ async def admin_cbs(_, query: CallbackQuery):
                 await _clear_(query.message.chat.id)
                 await pytgcalls.leave_group_call(query.message.chat.id)
                 await query.message.reply_text(
-                    text=f"⏭️ گۆرانی دواتر \n \n🖇️ لە لایە ن : {query.from_user.mention} \n\n**❗️ گۆرانی داهاتوو لە ڕیزەکەدا نییە ** {query.message.chat.title}, **پە یوە ندی چاتەکە بەجێدە هێڵی**",
+                    text=f"⏭️ گۆرانی دواتر \n \n🖇️ لە لایە ن : {query.from_user.mention} \n\n**❗️ گۆرانی داهاتوو لە ڕیزەکەدا نییە پە یوە ندی چاتەکە بەجێدە هێڵی**",
                     reply_markup=close_key,
                 )
                 return await query.message.delete()

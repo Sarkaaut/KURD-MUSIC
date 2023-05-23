@@ -58,7 +58,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ Bot Music Kurd ✯\n\n𖢵 ئایدی : `{BOT_ID}`\n𖢵 ناوە کە : {BOT_NAME}\n𖢵 ناوی بەکارهێنەر : @{BOT_USERNAME}",
+            f"✯ Bot Music Kurd ✯\n\n🪪 id : `{BOT_ID}`\n🏷️ Name : {BOT_NAME}\n🔖 Username : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -68,7 +68,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ Bot Music Krud ✯\n\n𖢵 ئایدی : `{ASS_ID}`\n𖢵 ناوە کە : {ASS_NAME}\n𖢵 ناوی بەکارهێنەر : @{ASS_USERNAME}",
+            f"✯ Bot Music Kurd ✯\n\n🪪 id : `{BOT_ID}`\n🏷️ Name : {BOT_NAME}\n🔖 Username : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(

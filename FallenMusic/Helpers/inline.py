@@ -38,11 +38,13 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="🔲", url=config.SUPPORT_CHAT),
             InlineKeyboardButton(text="⏭️", callback_data="skip_cb"),
             InlineKeyboardButton(text="⏹", callback_data="end_cb"),
+        ],
+        [
+            InlineKeyboardButton(text="ئیرە داگرە", url=config.SUPPORT_CHAT),
         ]
-     ]
- )
-
-    
+    ]
+)
+   
 pm_buttons = [
     [
         InlineKeyboardButton(

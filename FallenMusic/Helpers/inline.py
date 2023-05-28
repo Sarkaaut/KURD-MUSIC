@@ -35,12 +35,11 @@ buttons = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="▶️", callback_data="resume_cb"),
             InlineKeyboardButton(text="⏸", callback_data="pause_cb"),
-            InlineKeyboardButton(text="🔲", url=config.SUPPORT_CHAT),
             InlineKeyboardButton(text="⏭️", callback_data="skip_cb"),
             InlineKeyboardButton(text="⏹", callback_data="end_cb"),
         ],
         [
-            InlineKeyboardButton(text="ئیرە داگرە", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="‹ بۆتەکە زیاد بکە بۆ گروپەکەت ›", url=f"https://t.me/{BOT_USERNAME}?startgroup=true),
         ]
     ]
 )

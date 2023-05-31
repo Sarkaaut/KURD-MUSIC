@@ -38,7 +38,7 @@ async def song(_, message: Message):
         await message.delete()
     except:
         pass
-    m = await message.reply_text("⎊ کە میک چاوە روان بن...")
+    m = await message.reply_text("کە میک چاوە روان بن ♻️")
 
     query = "".join(" " + str(i) for i in message.command[1:])
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
@@ -58,13 +58,13 @@ async def song(_, message: Message):
             f"شکستی هێنا لە وەرگرتنی ڕێگاکە لە \n\n**هوکار :** `{ex}`"
         )
 
-    await m.edit_text("⎊ لە دابە زین دایە چاوەڕێ بکە,\n\n⎊ لە لایە ن ‌Bot Music...")
+    await m.edit_text("🔍 لە دابە زین دایە چاوەڕێ بکە,\n\n🖇️ لە لایە ن ‌Bot Music...")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"⎊ **ناونیشانەکە :** [{title[:23]}]({link})\n⎊ **ماوە :** `{duration}`\n⎊ ** لە لایە ن :** {BOT_MENTION}"
+        rep = f"🏷️ **ناونیشانەکە :** [{title[:23]}]({link})\n⏱️ **ماوە :** `{duration}`\n🖇️ ** لە لایە ن :** {BOT_MENTION}"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul

@@ -53,7 +53,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 @app.on_message(filters.command("eval") & SUDOERS & ~filters.forwarded)
 async def executor(client, message):
     if len(message.command) < 2:
-        return await edit_or_reply(message, text="**ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴇxᴇᴄᴜᴛᴇ ʙᴀʙʏ ?**")
+        return await edit_or_reply(message, text="**ئەوەی دەتەوێت لەسێدارە بدەیت بەیبی ?**")
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
     except IndexError:
@@ -80,7 +80,7 @@ async def executor(client, message):
     elif stdout:
         evaluation = stdout
     else:
-        evaluation = "Success"
+        evaluation = "سەرکەوتن"
     final_output = f"**OUTPUT**:\n```{evaluation.strip()}```"
     if len(final_output) > 4096:
         filename = "output.txt"

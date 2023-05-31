@@ -40,6 +40,9 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="⏹", callback_data="end_cb"),
         ],
         [
+            InlineKeyboardButton(text="• بۆکرێنی بۆتیک هاوشیوەی ئەمە •", user_id=config.OWNER_ID),
+        ],
+        [
             InlineKeyboardButton(text="‹ بۆتەکە زیاد بکە بۆ گروپەکەت ›", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ]
     ]

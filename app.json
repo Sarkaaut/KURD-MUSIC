@@ -12,7 +12,7 @@
     ],
     "env": {
       "API_ID": {
-        "description": " ئایپی خۆت دابنێ و لێرەوە وەریبگرە https://my.telegram.org",
+        "description": " ئایپی ئایدی دابنێ و لێرەوە وەریبگرە https://my.telegram.org",
         "value": "",
         "required": true
       },
@@ -27,7 +27,7 @@
         "required": true
       },
       "OWNER_ID": {
-        "description": "یایدی خاوەن بۆت بنووسە",
+        "description": "ئایدی خاوەن بۆت بنووسە",
         "value": "5789819429",
         "required": true
       },
@@ -37,12 +37,12 @@
         "required": true
       },
       "SUDO_USERS": {
-        "description": "ئایدی ئاکاونتی یارمەتێدەر بووسە",
+        "description": "ئایدی ئاکاونتی یارمەتێدەر بنووسە",
         "value": "5621206541",
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "لینکی گروپەکەت لیرە بووسە",
+        "description": "لینکی گروپەکەت لیرە بنووسە",
         "value": "https://t.me/Gruop_Shetakan",
         "required": false
       }

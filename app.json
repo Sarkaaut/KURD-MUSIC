@@ -17,32 +17,32 @@
         "required": true
       },
       "API_HASH": {
-        "description": " ضـع ايبي هاش احصل علية من هنا https://my.telegram.org",
+        "description": " ئابپی هاش دابنێ لێرەوە بەدەستی بهێنە https://my.telegram.org",
         "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "ضـع تـوكـن بـوتـك هـنـا",
+        "description": "تۆکن بۆتە کەت بنووسە لیرە",
         "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "ضـع ايـديـك هـنـا",
+        "description": "یایدی خاوەن بۆت بنووسە",
         "value": "5789819429",
         "required": true
       },
       "SESSION": {
-        "description": "ضـع جلسة البايروجرام احصل عليها من هنا @UU2xbot",
+        "description": "دانیشتنی پایرۆگرامەکە دابنێ، لێرەوە بەدەستی بهێنە @StrringSessionbot",
         "value": "",
         "required": true
       },
       "SUDO_USERS": {
-        "description": "ضـع ايـدي الـحـسـاب الـمـسـاعـد",
+        "description": "ئایدی ئاکاونتی یارمەتێدەر بووسە",
         "value": "5621206541",
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "ضـع رابـط جـروب الـدعـم",
+        "description": "لینکی گروپەکەت لیرە بووسە",
         "value": "https://t.me/Gruop_Shetakan",
         "required": false
       }

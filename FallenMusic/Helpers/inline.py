@@ -35,12 +35,13 @@ buttons = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="▶️", callback_data="resume_cb"),
             InlineKeyboardButton(text="⏸", callback_data="pause_cb"),
-            InlineKeyboardButton(text="🆕", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="🆕", user_id=config.OWNER_ID),
             InlineKeyboardButton(text="⏭️", callback_data="skip_cb"),
             InlineKeyboardButton(text="⏹", callback_data="end_cb"),
         ],
         [
-            InlineKeyboardButton(text="• بۆکرێنی بۆتیک هاوشیوەی ئەمە •", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="• کە ناڵی بۆت •", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="• گروپی بۆت •", url=config.SUPPORT_CHAT),
         ],
         [
             InlineKeyboardButton(text="‹ بۆتەکە زیاد بکە بۆ گروپەکەت ›", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),

@@ -32,7 +32,7 @@ from FallenMusic import app, app2
 
 @app.on_message(filters.command("broadcast") | filters.command(["Forward","فوروارد","forward"],prefixes= ["/", "!","","#"]) & filters.user(OWNER_ID))
 async def broadcast(_, message: Message):
-    brep = await message.reply_text("♻️ ئێستا پەخشەکە بە ئەکاونتی یاریدەدەر ئەنجام دەدرێت")
+    brep = await message.reply_text("ئێستا پەخشەکە بە ئەکاونتی یاریدەدەر ئەنجام دەدرێت ♻️")
     if message.reply_to_message:
         x = message.reply_to_message.id
         y = message.chat.id

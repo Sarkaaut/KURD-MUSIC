@@ -49,18 +49,18 @@ async def speedtest_function(_, message):
     m = await message.reply_text("**⎊ تاقیکردنەوەی خێرایی ئەنجام بدە...**")
     loop = asyncio.get_event_loop()
     result = await loop.run_in_executor(None, testspeed, m)
-    output = f"""✯ **ئەنجامی تاقیکردنەوەی خێرایی بۆت میوزیک ** ✯
+    output = f"""🎶 **ئەنجامی تاقیکردنەوەی خێرایی بۆت میوزیک ** 
     
-<u>**⎊ کلایەنت :**</u>
-**⎊ دابینکه‌ری خزمه‌تگوزاری ئینته‌رنێت :** {result['client']['isp']}
-**⎊وڵات :** {result['client']['country']}
+<u>**🚹 کلایەنت :**</u>
+**🛜 دابینکه‌ری خزمه‌تگوزاری ئینته‌رنێت :** {result['client']['isp']}
+**🇺🇸 وڵات :** {result['client']['country']}
   
-<u>**⎊ سێرڤەر :**</u>
-**⎊ ناوەکە :** {result['server']['name']}
-**⎊ وڵات :** {result['server']['country']}, {result['server']['cc']}
-**⎊ رام :** {result['server']['sponsor']}
-**⎊ کاتی وەڵامدانەوە :** {result['server']['latency']}  
-**⎊ پینگ :** {result['ping']}"""
+<u>**📶 سێرڤەر :**</u>
+**🏷️ ناوەکە :** {result['server']['name']}
+**🌐 وڵات :** {result['server']['country']}, {result['server']['cc']}
+**⚙️ رام :** {result['server']['sponsor']}
+**📬 کاتی وەڵامدانەوە :** {result['server']['latency']}  
+**📊 پینگ :** {result['ping']}"""
     msg = await app.send_photo(
         chat_id=message.chat.id, photo=result["share"], caption=output
     )

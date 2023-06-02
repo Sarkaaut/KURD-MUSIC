@@ -109,7 +109,7 @@ async def play(_, message: Message):
                 )
             except Exception as ex:
                 return await fallen.edit_text(
-                    f"❗️ بانگهێشتنامەکە شکستی هێنا {BOT_NAME} یاریدەدەرەکە {message.chat.title}.\n\n**هۆکار :** `{ex}`"
+                    f"❗️ بانگهێشتنامەکە شکستی هێنا {message.chat.title}.\n\n**هۆکار :** `{ex}`"
                 )
         if invitelink.startswith("https://t.me/+"):
             invitelink = invitelink.replace("https://t.me/+", "https://t.me/joinchat/")
@@ -126,7 +126,7 @@ async def play(_, message: Message):
             pass
         except Exception as ex:
             return await fallen.edit_text(
-                f"❗️بانگهێشتنامەکە شکستی هێنا {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}.\n\n**هۆکار :** `{ex}`"
+                f"❗️ بانگهێشتنامەکە شکستی هێنا {message.chat.title}.\n\n**هۆکار :** `{ex}`"
             )
         try:
             await app2.resolve_peer(invitelink)
@@ -168,7 +168,7 @@ async def play(_, message: Message):
                 secmul *= 600
 
         except Exception as e:
-            return await fallen.edit_text(f"هه ڵە یە هه یە❕\n\n**هه ڵە :** `{e}`")
+            return await fallen.edit_text(f"هه ڵە یە هه یە لە لینکە کە❕\n\n**هه ڵە :** `{e}`")
 
         if (dur / 600) > DURATION_LIMIT:
             return await fallen.edit_text(
@@ -177,7 +177,7 @@ async def play(_, message: Message):
         file_path = audio_dl(url)
     else:
         if len(message.command) < 2:
-            return await fallen.edit_text("ناوی گۆرانییەکە بنووسە 🎧")
+            return await fallen.edit_text("ناوی گۆرانییەکە بنووسە لەگەڵ فە رمانەکە🎧")
         await fallen.edit_text("چاوە روان بە 🔄")
         query = message.text.split(None, 1)[1]
         try:
@@ -238,7 +238,7 @@ async def play(_, message: Message):
             )
         except TelegramServerError:
             return await fallen.edit_text(
-                "♻️ کێشەیەک هەبوو هەوڵبدە تیڵە کە دابخەیت و دووبارە بکەیتەوە"
+                "کێشەیەک هەبوو هەوڵبدە تیڵە کە دابخەیت و دووبارە بکەیتەوە ♻️"
             )
         except UnMuteNeeded:
             return await fallen.edit_text(

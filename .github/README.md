@@ -15,7 +15,7 @@
 <a href="https://telegram.me/ChanallBots"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-فایلەکە پەرەی پێدراوە لە لایە ن [SARKAUT](https://t.me/SARKAUT)
+Failaka Paray pe drawa lalayan [SARKAUT](https://t.me/SARKAUT)
 
 ─「 [Bot-MusicKurd](https://t.me/MusiccKurdbot) 」─ 
 

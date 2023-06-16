@@ -13,12 +13,12 @@
     "env": {
       "API_ID": {
         "description": " ئایپی ئایدی دابنێ و لێرەوە وەریبگرە https://my.telegram.org",
-        "value": "",
+        "value": "29351706",
         "required": true
       },
       "API_HASH": {
         "description": " ئابپی هاش دابنێ لێرەوە بەدەستی بهێنە https://my.telegram.org",
-        "value": "",
+        "value": "14eb170ada06533cdf136c01333c5e3b",
         "required": true
       },
       "BOT_TOKEN": {

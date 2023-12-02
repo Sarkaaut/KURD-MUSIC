@@ -28,7 +28,7 @@
       },
       "OWNER_ID": {
         "description": "ئایدی خاوەن بۆت بنووسە",
-        "value": "5789819429",
+        "value": "6588787990",
         "required": true
       },
       "SESSION": {
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "لینکی گروپەکەت لیرە بنووسە",
-        "value": "https://t.me/Gruop_Shetakan",
+        "value": "https://t.me/pieceoflife00",
         "required": false
       }
     },

@@ -13,17 +13,17 @@
     "env": {
       "API_ID": {
         "description": " ئایپی ئایدی دابنێ و لێرەوە وەریبگرە https://my.telegram.org",
-        "value": "29351706",
+        "value": "28517250",
         "required": true
       },
       "API_HASH": {
         "description": " ئابپی هاش دابنێ لێرەوە بەدەستی بهێنە https://my.telegram.org",
-        "value": "14eb170ada06533cdf136c01333c5e3b",
+        "value": "b96f3367dbe30a01985807ee7f5d7013",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "تۆکن بۆتە کەت بنووسە لیرە",
-        "value": "",
+        "value": "5999410466:AAGbyBl94hjaWXZEZgxvzVT81CWnW9GoGKw",
         "required": true
       },
       "OWNER_ID": {
@@ -33,12 +33,12 @@
       },
       "SESSION": {
         "description": "دانیشتنی پایرۆگرامەکە دابنێ، لێرەوە بەدەستی بهێنە @StrringSessionbot",
-        "value": "",
+        "value": "AgGzI4IAvYANvIjpHK3LOOUUTu55y0lcTVXGzNMediThQZjqxPThJtgJA-_q2kMVnNmd9vbbvKoQOja2VwyWTPDcu3wKq5JChzY7KldLPmOrg2Pnwg5a8sRcUANaNuBUp50K_p8xItxkpoOIAVwEBcZmE_vm797-hez72N_msB0-ua6etPUCisYdNY-7REc-4F00S5JhcaK9ILXZNoEHt4FQlSUA9e3AoxlI_mEtzLPWW7GhmO5yQYFQ1GH2l-8k4Am1myQMK60ZRG_d8r6EryAsU56MplX_bZTG5WyViWIVZUI7N5xj2xPxviPbEpWt9jOdOFBDfDoFoGgxpchiNB5Fhv36wAAAAAGNTVZ_AA",
         "required": true
       },
       "SUDO_USERS": {
         "description": "ئایدی ئاکاونتی یارمەتێدەر بنووسە",
-        "value": "6279193321",
+        "value": "6665623167",
         "required": true
       },
       "SUPPORT_CHAT": {

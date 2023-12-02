@@ -9,7 +9,7 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "9999999"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "99999"))
 
 OWNER_ID = int(getenv("OWNER_ID"))
 
@@ -18,10 +18,10 @@ START_IMG = getenv("START_IMG", "https://telegra.ph/file/1227e31aec0891e810516.j
 
 SESSION = getenv("SESSION", None)
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Group_Shetakan")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ChanallBots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/pieceoflife00")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/nafasmm0")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5739996356").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6588787990").split()))
 
 
 FAILED = "https://telegra.ph/file/df75144e63c1a1d04da98.jpg"

@@ -33,7 +33,7 @@ from .active import is_active_chat
 def admin_check(func: Callable) -> Callable:
     async def non_admin(_, message: Message):
         if not await is_active_chat(message.chat.id):
-            return await message.reply_text("**پیویستە پەیوەندی دەنگی کرابێتەوە و ئاکاونتی یارمەتێدەر لەپەوەندیکەدا بیت هەتا بتوانی فەرمانەکان بەکاربهێنی ⚠️**")
+            return await message.reply_text("**پیویستە پەیوەندی دەنگی کرابێتەوە بۆ بەکارهێنانی فەرمانەکان ⚠️**")
 
         if message.from_user.id in SUDOERS:
             return await func(_, message)

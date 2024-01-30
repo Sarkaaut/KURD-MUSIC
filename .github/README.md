@@ -6,7 +6,7 @@
 <p align="center">
     ─「 KURD-MUSIC 」─
 </p>
-
+[![تشغيل](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Source-Ze/Premium)
 </h3>
 <p align="center">
 <a href="https://telegram.me/Gruop_Shetakan"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>

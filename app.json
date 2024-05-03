@@ -13,22 +13,22 @@
     "env": {
       "API_ID": {
         "description": " ئایپی ئایدی دابنێ و لێرەوە وەریبگرە https://my.telegram.org",
-        "value": "28517250",
+        "value": "25507641",
         "required": true
       },
       "API_HASH": {
         "description": " ئابپی هاش دابنێ لێرەوە بەدەستی بهێنە https://my.telegram.org",
-        "value": "b96f3367dbe30a01985807ee7f5d7013",
+        "value": "c7f8b3cee647c7503190d075d2cc418a",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "تۆکن بۆتە کەت بنووسە لیرە",
-        "value": "5999410466:AAGbyBl94hjaWXZEZgxvzVT81CWnW9GoGKw",
+        "value": "6891227561:AAFVMJvM2vhDHs7T68j0_zCAgDSfOwqbsx8",
         "required": true
       },
       "OWNER_ID": {
         "description": "ئایدی خاوەن بۆت بنووسە",
-        "value": "6588787990",
+        "value": "5789819429",
         "required": true
       },
       "SESSION": {
@@ -38,7 +38,7 @@
       },
       "SUDO_USERS": {
         "description": "ئایدی ئاکاونتی یارمەتێدەر بنووسە",
-        "value": "6665623167",
+        "value": "6266958663",
         "required": true
       },
       "SUPPORT_CHAT": {

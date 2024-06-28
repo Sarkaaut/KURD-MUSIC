@@ -28,22 +28,22 @@
       },
       "OWNER_ID": {
         "description": "ئایدی خاوەن بۆت بنووسە",
-        "value": "5789819429",
+        "value": "7210848076",
         "required": true
       },
       "SESSION": {
         "description": "دانیشتنی پایرۆگرامەکە دابنێ، لێرەوە بەدەستی بهێنە @StrringSessionbot",
-        "value": "1ApWapzMBu6MFX51hZrqCYsP8MS09inNWDxb3IZCuoEYmBDeIekYWfhD3Ikf4t4yPu45eo4tvSW9b0bSRCI-AxcYGEmvS6I7KeyyGVD7fllhISmD785PfeDpADiJENTDMp8OIZKQ_x6REoxjbANaYf3ij68ud9yUtTc8AlB59_8snpl7L-SiLAips9zPgCIRILQar6mXNKJI4zlhCIU1VncAUT3Q164Gcz4JNMYprwO7l9vgphBnmlEAj0gEMbX7skhfyL6hNGCzowFslMbbhNieqFB4doYsjNb01Qqu2c2MC5ARlr5IlgL9tDl3w3i2SAvlnB8ZDGMIliEXvtSAIAjcle-Dk0b8=",
+        "value": "AgCIVfMAoILnLWt_SEw87tmxwWtVmkswI68o-rOEBkG2OowMjyLeiDMTiGF8ni7utd3WcN_W-TtC2TZmQ6DoxpgA6wliVJVKl7hue3MswDQDuCn98KXhnwQ_3GdDX2KikOe6VqKYGZ-doIFBT06h_oPAfgxjJMVKAxv5X2QJMNGQZQL-MdBXoC3RLGAH7zhMkghk09ZFM4LkacFiJ9BHcqiJqzR6SeEX93fQwKNPD7ZWVcdFdfaKgykKWosar4-ODhHDcc2cN4YtyBUjLhSaWWY8G9nzG8LrsbLUvSaOlcxe64krCXR6VucCzsEg1s7wG8wmGhm3WtoWybCvQ9aMNnao244ppgAAAAFPDM4NAA",
         "required": true
       },
       "SUDO_USERS": {
         "description": "ئایدی ئاکاونتی یارمەتێدەر بنووسە",
-        "value": "6266958663",
+        "value": "5621206541",
         "required": true
       },
       "SUPPORT_CHAT": {
         "description": "لینکی گروپەکەت لیرە بنووسە",
-        "value": "https://t.me/grup_g4njan",
+        "value": "https://t.me/pieceofsad0",
         "required": false
       }
     },

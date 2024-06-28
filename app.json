@@ -1,7 +1,7 @@
 {
-    "name": "Bot Music Kurd",
-    "description": "اللهم صلي علي سيدنا محمد ❤️🖇️",
-    "logo": "https://telegra.ph/file/9ae65655540f3f71fcd35.jpg",
+    "name": "ғᴀʟʟᴇɴ ダ ᴍᴜsɪᴄ",
+    "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://te.legra.ph/file/6f99c49bdb4679acad717.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -12,38 +12,38 @@
     ],
     "env": {
       "API_ID": {
-        "description": " ئایپی ئایدی دابنێ و لێرەوە وەریبگرە https://my.telegram.org",
-        "value": "25507641",
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": " ئابپی هاش دابنێ لێرەوە بەدەستی بهێنە https://my.telegram.org",
-        "value": "c7f8b3cee647c7503190d075d2cc418a",
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "تۆکن بۆتە کەت بنووسە لیرە",
-        "value": "6891227561:AAFVMJvM2vhDHs7T68j0_zCAgDSfOwqbsx8",
+        "description": "A Bot's token from Botfather",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "ئایدی خاوەن بۆت بنووسە",
-        "value": "7210848076",
+        "description": "Fill your user id here. (Must be integer)",
+        "value": "1356469075",
         "required": true
       },
       "SESSION": {
-        "description": "دانیشتنی پایرۆگرامەکە دابنێ، لێرەوە بەدەستی بهێنە @StrringSessionbot",
-        "value": "AgCIVfMAoILnLWt_SEw87tmxwWtVmkswI68o-rOEBkG2OowMjyLeiDMTiGF8ni7utd3WcN_W-TtC2TZmQ6DoxpgA6wliVJVKl7hue3MswDQDuCn98KXhnwQ_3GdDX2KikOe6VqKYGZ-doIFBT06h_oPAfgxjJMVKAxv5X2QJMNGQZQL-MdBXoC3RLGAH7zhMkghk09ZFM4LkacFiJ9BHcqiJqzR6SeEX93fQwKNPD7ZWVcdFdfaKgykKWosar4-ODhHDcc2cN4YtyBUjLhSaWWY8G9nzG8LrsbLUvSaOlcxe64krCXR6VucCzsEg1s7wG8wmGhm3WtoWybCvQ9aMNnao244ppgAAAAFPDM4NAA",
+        "description": "A pyrogram v2 string session from @StringFatherBot",
+        "value": "",
         "required": true
       },
       "SUDO_USERS": {
-        "description": "ئایدی ئاکاونتی یارمەتێدەر بنووسە",
-        "value": "5621206541",
+        "description": "The user id(s) of user(s) whom you would like to add as a sudo. Multiple values shall be seperated with a space.",
+        "value": "",
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "لینکی گروپەکەت لیرە بنووسە",
-        "value": "https://t.me/pieceofsad0",
+        "description": "Link of your telegram support group. (Must pe public)",
+        "value": "https://t.me/DevilsHeavenMF",
         "required": false
       }
     },
